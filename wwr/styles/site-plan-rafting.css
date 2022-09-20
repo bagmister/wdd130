@@ -34,7 +34,7 @@ body {
   margin: 0 auto;
   padding: 4em;
   font-size: 18px;
-  text-align: center;
+  text-align: left;
 }
 img {
   display: block;
@@ -135,17 +135,17 @@ nav a:hover {
 }
 .sm-home {
   grid-area: home;
-  background-color: #F0F0C9;
+  background-color: #ccc;
   line-height: 3em;
 }
 .sm-page2 {
   grid-area: page2;
-  background-color: #374E09;
+  background-color: #ccc;
   line-height: 3em;
 }
 .sm-page3 {
   grid-area: page3;
-  background-color: #A36E43;
+  background-color: #ccc;
   line-height: 3em;
 }
 .top {
