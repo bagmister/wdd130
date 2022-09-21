@@ -26,7 +26,13 @@ Fonts are separated by a & */
   --nav-hover-background-color: #374E09;
 }
 
-
+ul {
+  max-width: 960px;
+  margin: 0 auto;
+  font-size: 18px;
+  text-align: left;
+  font-family: var(--paragraph-font);
+}
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
