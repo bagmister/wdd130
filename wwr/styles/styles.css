@@ -3,6 +3,10 @@ div {
     margin: 0 auto;
 }
 
+header {
+    background-color: #124E78
+}
+
 content {
     margin: 0 auto;
     max-width: 1600px;
@@ -15,6 +19,10 @@ nav a {
 }
 
 #hero-msg h1{
+    text-align: center;
+}
+
+#hero-msg h4 {
     text-align: center;
 }
 
