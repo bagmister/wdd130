@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Tapestry&display=swap');
+
+header {
+    background-color: gray;
+    display: grid;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: #F0F0C9;
+    padding: 35px;
+    font-size: 3em;
+    font-family: 'Tapestry', 'Grechen Fuemen';
+}
+
+nav :hover {
+    background-color: rgb(253, 29, 29);
+    color: #F0F0C9;
+}
+
+.logo {
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: left;
+    align-self: left;
+}
+body {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    background-color: tan;
+    padding: 0;
+    font-size: 22px;
+    font-family: 'Tapestry', sans-serif;
+    margin: 0;
+}
+
+#welcome-image {
+    display: grid;
+    margin-top: -100px;
+    grid-row: 3;
+}
+
+#second-welcome-image {
+    display: grid;
+    margin-top: -100px;
+    grid-column: 2/4;
+    grid-row: 5;
+}
+
+#welcome-img {
+    display: grid;
+    justify-items: center;
+}
+
+#welcome-box {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    z-index: -1;
+}
+
+.home-title {
+    text-align: center;
+    grid-row: 1;
+}
+#welcome-msg h1{
+    text-align: center;
+    grid-column: 3/4;
+    grid-row: 3;
+}
+
+h2 {
+    text-align: left;
+    grid-column: 2;
+    grid-row: 3;
+}
+
+#second-welcome-image {
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
