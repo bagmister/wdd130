@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Tapestry&display=swap');
 
+body {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    background-color: tan;
+    padding: 0;
+    font-size: 22px;
+    font-family:  'Grechen Fuemen', sans-serif;
+    margin: 0;
+}
+
 header {
     background-color: gray;
     display: grid;
@@ -13,11 +23,11 @@ nav {
     color: #F0F0C9;
     padding: 35px;
     font-size: 3em;
-    font-family: 'Tapestry', 'Grechen Fuemen';
+    font-family: 'Tapestry', 'Grechen Fuemen', sans-serif;
 }
 
 nav :hover {
-    background-color: rgb(253, 29, 29);
+    background-color: #642B2B;
     color: #F0F0C9;
 }
 
@@ -32,27 +42,31 @@ nav :hover {
     justify-self: left;
     align-self: left;
 }
-body {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    background-color: tan;
-    padding: 0;
-    font-size: 22px;
-    font-family: 'Tapestry', sans-serif;
-    margin: 0;
-}
 
 #welcome-image {
     display: grid;
     margin-top: -100px;
     grid-row: 3;
+    max-width: 100%;
+    height: auto;
+}
+
+#intro-welcome-text {
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 4;
+    font-family: 'Tapestry','Grechen Fuemen';
+    justify-content: left;
+    max-width: 100%;
 }
 
 #second-welcome-image {
     display: grid;
     margin-top: -100px;
-    grid-column: 2/4;
-    grid-row: 5;
+    grid-column: 4/5;
+    grid-row: 4;
+    max-width: 100%;
+    height: auto;
 }
 
 #welcome-img {
@@ -80,9 +94,4 @@ h2 {
     text-align: left;
     grid-column: 2;
     grid-row: 3;
-}
-
-#second-welcome-image {
-    grid-column: 2/4;
-    grid-row: 2/3;
 }
