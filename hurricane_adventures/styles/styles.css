@@ -70,12 +70,14 @@ h2 {
     text-align: left;
     grid-column: 1/4;
     grid-row: 7;
+    margin-left: 20px;
 }
 
 #intro-welcome-text {
     grid-column: 1/4;
     grid-row: 8;
     font-family: 'Tapestry','Grechen Fuemen';
+    margin-left: 20px;
 }
 
 #welcome-msg h1{
