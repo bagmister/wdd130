@@ -75,10 +75,12 @@ nav :hover {
     opacity: 0.3;
     grid-row: 3;
     grid-column: 2;
+    max-width: 1200px;
   }
   
 .welcome-container:hover .welcome-text-picture-hover {
 opacity: 1;
+max-width: 1200px;
 }
 
 .welcome-text-picture-hover {
@@ -90,11 +92,13 @@ opacity: 1;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
+    max-width: 1200px;
 }
 
 .welcome-container-text {
    color: #F0F0C9;
    background-color: #642B2B;
+   max-width: 1200px;
 }
 
 #second-welcome-image {
