@@ -52,12 +52,47 @@ nav :hover {
     width: auto;
     height: 120px;
 }
-
-#welcome-image {
+.welcome-container {
+    position: relative;
     grid-row: 3/7;
     grid-column: 2/12;
+}
+
+.welcome-image {
+    grid-row: 3;
+    grid-column: 2;
     width: 85%;
     height: 100%;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.welcome-container:hover .welcome-image {
+    opacity: 0.3;
+    grid-row: 3;
+    grid-column: 2;
+  }
+  
+.welcome-container:hover .welcome-text-picture-hover {
+opacity: 1;
+}
+
+.welcome-text-picture-hover {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.welcome-container-text {
+   color: #F0F0C9;
+   background-color: #642B2B;
 }
 
 #second-welcome-image {
