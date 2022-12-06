@@ -56,6 +56,7 @@ nav :hover {
     position: relative;
     grid-row: 3/7;
     grid-column: 2/12;
+    max-width: 1200px;
 }
 
 .welcome-image {
@@ -67,6 +68,7 @@ nav :hover {
     display: block;
     transition: .5s ease;
     backface-visibility: hidden;
+    max-width: 1200px;
 }
 
 .welcome-container:hover .welcome-image {
