@@ -121,10 +121,13 @@ h2 {
     grid-row: 3;
 }
 
-footer {
-    text-align: center;
-    grid-row: 12;
+#home-footer {
+    grid-row: 11;
     grid-column: 1/12;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
  
 a {
@@ -209,4 +212,140 @@ a {
     height: 100%;
     margin-left: 40px;
     margin-top: 10px;
+}
+
+#plumbing-footer {
+    grid-row: 11;
+    grid-column: 1/12;
+    margin-top: 220px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.electrical-page {
+    display: grid;
+    grid-template-columns: repeat(6, 7em);
+    grid-template-rows: repeat(12, 7em);
+    background-color: #BF9E6A;
+    padding: 0;
+    font-size: 23px;
+    font-family:  'Grechen Fuemen', sans-serif;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+#electrical-welcome-image-box {
+    grid-row: 2/4;
+    grid-column: 1/12;
+    width: 100%;
+    height: 100%;
+}
+
+#electrical-welcome-image {
+    grid-row: 2/4;
+    grid-column: 1/12;
+    width: 100%;
+    height: 100%;
+}
+
+.electrical-title {
+    text-align: center;
+    grid-row: 2/4;
+    grid-column: 1/12;
+    margin: 10px;
+    color: #396E94;
+}
+
+#electrical-title {
+    grid-row: 4;
+    grid-column: 1/4;
+    text-align: left;
+    margin-top: 100px;
+    margin-top: 10px;
+}
+
+#the-missing-breaker-panel-title {
+    grid-row: 4;
+    grid-column: 1/4;
+    text-align: left;
+    margin-top: 100px;
+    margin-top: 10px;
+}
+
+#the-missing-breaker-panel-text {
+    grid-row: 5;
+    grid-column: 1/5;
+    width: 100%;
+    text-align: center;
+    margin-top: -100px;
+    margin-left: 10px;
+}
+
+#the-missing-breaker-panel-image {
+    grid-row: 4/6;
+    grid-column: 5/11;
+    width: 100%;
+    height: 100%;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+#diagram-of-electrical-system-title {
+    grid-row: 7;
+    grid-column: 5/12;
+    text-align: center;
+    margin-top: -30px;
+}
+
+#diagram-of-electrical-system-text {
+    grid-row: 8;
+    grid-column: 5/12;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: -150px;
+}
+
+#diagram-of-electrical-system-image {
+    grid-row: 7/9;
+    grid-column: 1/4;
+    width: 100%;
+    height: 100%;
+    margin-left: 40px;
+    margin-top: -10px;
+}
+
+#possible-upgrades-title{
+    grid-row: 9;
+    grid-column: 1/5;
+    text-align: center;
+    margin-right: 20px;
+}
+
+#possible-upgrades-text {
+    grid-row: 10;
+    grid-column: 1/5;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: -80px;
+    margin-left: 10px;
+}
+
+#possible-upgrades-image {
+    grid-row: 10/12;
+    grid-column: 5/11;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: -50px;
+    width: 100%;
+    height: 100%;
+}
+
+#electrical-footer {
+    grid-row: 11;
+    grid-column: 1/12;
+    margin-top: 220px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
