@@ -97,8 +97,9 @@ opacity: 1;
 
 #second-welcome-image {
     grid-row: 8;
-    grid-column: 4/12;
-    width: 100%;
+    grid-column: 4/11;
+    width: 90%;
+    margin-left: 20px;
 }
 
 h2 {
@@ -181,6 +182,7 @@ a {
     text-align: center;
     margin-top: -100px;
     margin-left: 10px;
+    font-family: 'Tapestry','Grechen Fuemen';
 }
 
 #plumbing-system-overview-image {
@@ -204,6 +206,7 @@ a {
     text-align: center;
     margin-right: 20px;
     margin-top: -50px;
+    font-family: 'Tapestry','Grechen Fuemen';
 }
 
 #plumbing-water-heater-and-loop-when-using-on-board-pump-image {
@@ -212,13 +215,13 @@ a {
     width: 100%;
     height: 100%;
     margin-left: 40px;
-    margin-top: 10px;
+    margin-top: 40px;
 }
 
 #plumbing-footer {
     grid-row: 11;
     grid-column: 1/12;
-    margin-top: 220px;
+    margin-top: 240px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -281,6 +284,7 @@ a {
     text-align: center;
     margin-top: -100px;
     margin-left: 10px;
+    font-family: 'Tapestry','Grechen Fuemen';
 }
 
 #the-missing-breaker-panel-image {
@@ -305,6 +309,7 @@ a {
     text-align: center;
     margin-right: 20px;
     margin-top: -150px;
+    font-family: 'Tapestry','Grechen Fuemen';
 }
 
 #diagram-of-electrical-system-image {
@@ -330,6 +335,7 @@ a {
     margin-right: 20px;
     margin-top: -80px;
     margin-left: 10px;
+    font-family: 'Tapestry','Grechen Fuemen';
 }
 
 #possible-upgrades-image {
